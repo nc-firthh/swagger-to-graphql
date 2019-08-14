@@ -33,6 +33,8 @@ const getSuccessResponse = (responses: Responses) => {
     return code[0] === '2';
   });
 
+  // TODO: Add support for `allOf`
+
   return resp && resp.schema;
 };
 
